@@ -5,6 +5,10 @@ if __name__ == '__main__':
     import os.path
     import unittest
     import argparse
+    import sys
+
+    sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                                    '..')))
 
     dirname = os.path.dirname(__file__)
 
